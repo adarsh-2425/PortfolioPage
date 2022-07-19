@@ -13,6 +13,7 @@ import { AboutComponent } from './about/about.component';
 import { SamplesComponent } from './samples/samples.component';
 import { ContactComponent } from './contact/contact.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,8 +31,8 @@ import { ContactComponent } from './contact/contact.component';
     AppRoutingModule,
     RouterModule.forRoot([
       { path: 'landing-section', component: LandingSectionComponent },
-      { path: '', redirectTo: 'welcome', pathMatch: 'full' },
-      { path: '**', redirectTo: 'welcome', pathMatch: 'full' }
+      { path: '', redirectTo: 'landing-section', pathMatch: 'full' },
+      { path: '**', redirectTo: 'landing-section', pathMatch: 'full' }
     ]),
   ],
   providers: [],
