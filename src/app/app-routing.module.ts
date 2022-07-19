@@ -8,13 +8,18 @@ import { ServicesSectionComponent } from './services-section/services-section.co
 import { TestimonyComponent } from './testimony/testimony.component';
 
 const routes: Routes = [
-  {
-    path: '',component : LandingSectionComponent},
+  
+  
+   { path: '', 
+    children: [
+      { path: '', redirectTo: 'landing-section', pathMatch: 'full' },
+      { path: 'landing-section', component: LandingSectionComponent}
+    ]},
    
   {path:'about',component:AboutComponent},
   {path:'samples',component:SamplesComponent},
    {path:'contact', component: ContactComponent}
-];
+  ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
