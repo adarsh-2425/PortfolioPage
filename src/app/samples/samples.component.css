@@ -1,0 +1,31 @@
+#heading{
+    text-align: center;
+    padding: 5%;
+    background-color: #0062cc;
+    font-size: 50px;
+    margin-top: 2%;
+}
+
+
+h1, p, h2{
+    color: #212121;
+    text-align: center;
+    
+}
+h5{
+    text-align: center;
+    
+}
+img:hover {
+    opacity: 0.8;
+  }
+
+.container{
+    margin-bottom: 5%;
+}
+#todo:hover{
+color: red;
+}
+#tourism:hover{
+    color: green;
+    }

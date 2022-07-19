@@ -1,0 +1,16 @@
+body{background-color: #eee}
+.profile{width: 100%;height: 350px}
+.percentage{font-size: 30px}
+.testimonials{height: 350px}
+h1{
+    text-align: center;
+}
+h1:hover{
+    color: orange;
+}
+#para{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25%;
+}

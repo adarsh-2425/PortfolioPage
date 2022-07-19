@@ -1,0 +1,83 @@
+@media only screen and (max-width: 600px) {
+    img{
+        display: none;
+        
+    }
+    
+  }
+
+.portfoliohome{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.portfoliohome h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+.portfoliohome p{
+    color: #555;
+    line-height: 22px;
+}
+.portfoliohome a{
+    background:orange ;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #212121;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+.portfoliohome a:hover{
+    background:#212121 ;
+    color: orange;
+}
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+.images:hover .globe{
+    bottom: 40px;
+    
+}
+.images:hover .man{
+    left:45%;
+}
+.contactform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 40px;
+}
+#landingpage{
+    margin-bottom: 20%;
+}
+h3{
+    text-align: center;
+}
+span{
+    color: #0000;
+  background: 
+    linear-gradient(90deg,#1095c1 50%,#000 0) 
+    var(--_p,100%)/200% no-repeat;
+  -webkit-background-clip: text;
+          background-clip: text;
+  transition: .4s;
+}
+span:hover{
+    --_p: 0%;
+}
