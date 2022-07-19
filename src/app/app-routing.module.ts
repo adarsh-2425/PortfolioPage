@@ -9,16 +9,11 @@ import { TestimonyComponent } from './testimony/testimony.component';
 
 const routes: Routes = [
   {
-    path: "",component : LandingSectionComponent,
-    
-      children:[
-        {path:"services-section",component:ServicesSectionComponent},
-        {path:"testimony",component:TestimonyComponent}
-      ]
-  },
+    path: '',component : LandingSectionComponent},
+   
   {path:'about',component:AboutComponent},
   {path:'samples',component:SamplesComponent},
-   {path:'contact', component: ContactComponent},
+   {path:'contact', component: ContactComponent}
 ];
 
 @NgModule({
